@@ -156,7 +156,7 @@ def run():
               embed=discord.Embed(description = "Due to limited seat, only first 500 members to fill the form will be able to enroll \n as the users from other platforms are also participating. \n Google forms will be open till Tuesday 11:59 PM \n \n Best of luck securing your seat!", color=0x426ff5)
               await message.channel.send(embed=embed)
               return
-    bot.run('MTE1MDQ0NjgwNDQ1OTA3NzcwNA.GWAuqC.0bHcHP-H4_f8G3pIkYrYAbhGC0Xwb4s4ySZmI0')
+    bot.run(DISCORD_API_TOKEN)
 
 if __name__=="__main__":
     run()
